@@ -33,19 +33,28 @@
 
 _Goals_
 
-- [ ] Interview: Instaclustr quick call for screening purposes (15 minutes)
-- [ ] Plan: Make yet another plan, but this time be true (1 hour)
-- [ ] Job Application: (30 minutes)
+- [x] Interview: Instaclustr quick call for screening purposes (15 minutes)
+- [x] Plan: Make yet another plan, but this time be true (1 hour)
+- [x] Job Application: (30 minutes)
   - [ ] Followup:
-- [ ] Follow up on summer project opportunity (1.5 hours)
+- [x] Follow up on summer project opportunity (1.5 hours)
 - [ ] Coding:
   - [ ] Full stack practice (2 hours)
-  - [ ] SwiftUI (30 minutes)
+  - [x] SwiftUI (30 minutes)
   - [ ] Python (2 hours)
   - [ ] Algorithm (1 hour)
   - [ ] Other:
 - [ ] Design: Draw sketch of the landing page in Figma (30 minutes)
-- [ ] Reading: (1 hour)
+- [x] Reading: (1 hour)
   - [ ] Bonus: Keep a reading journal
+- [x] Workout: Apple Fitness + outdoor walk (1 hour)
 
 Summarize the day:
+
+1. Just did the Javascript skill test on LinkedIn, but got only top 30% of the results. Without constant practice and coding with real application, even the recently aquired skills are forgotten quite easily.
+2. Got two rejections from my job applications (just a normal day), with one not acknowledging the bridging visa, and the other one direct rejection. Good news is that I might have the second round of interview next week, and a possible 4 months full time job. Finished another job application as a programmer, with the longest cover letter written to address the selection criteria.
+3. Started SwiftUI as a false beginner who doesn't really build an app. This time, keep it to the 100th day!
+4. Today's reading is actually religious related. It's a good practice.
+5. [Need to improve] Better time management skills and a sense of priority and purpose.
+6. [NTI] Need to utilize casual time to polish up skills and think about my professional career, in the long run. Time has proven that doing nothing is the worst policy. Get started, even mistakes are valuable if I learn from them.
+7. [NTI] Doing the hardest tasks first, always.
