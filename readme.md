@@ -58,3 +58,19 @@ Summarize the day:
 5. [Need to improve] Better time management skills and a sense of priority and purpose.
 6. [NTI] Need to utilize casual time to polish up skills and think about my professional career, in the long run. Time has proven that doing nothing is the worst policy. Get started, even mistakes are valuable if I learn from them.
 7. [NTI] Doing the hardest tasks first, always.
+
+##### Day 1
+
+- [ ] Coding:
+  - [ ] Full stack practice (2 hours)
+  - [x] SwiftUI (30 minutes)
+  - [ ] Python (2 hours)
+  - [ ] Algorithm (1 hour)
+  - [ ] Other:
+- [ ] Design: Draw sketch of the landing page in Figma (30 minutes)
+- [ ] Reading: (2 hour)
+  - [ ] Bonus: Keep a reading journal
+- [ ] Workout: Apple Fitness + outdoor walk (1 hour)
+- [ ] Uber (2 hours)
+- [ ] Volunteer: (2 hours)
+- [ ] Visa application (5 hours)
