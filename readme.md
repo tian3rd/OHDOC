@@ -82,3 +82,21 @@ Summirize the day:
 2. Attended reading via zoom.
 3. Apple fitness + random walk.
 4. Day 2 of SwiftUI, start slow, and carry on.
+
+##### Day 2
+
+- [ ] Coding:
+  - [ ] Full stack practice (2 hours)
+  - [ ] SwiftUI (30 minutes)
+  - [ ] Python (2 hours)
+  - [ ] Algorithm (1 hour)
+  - [ ] Other:
+- [ ] Design: Draw sketch of the landing page in Figma (30 minutes)
+- [ ] Reading: (2 hour)
+  - [ ] Bonus: Keep a reading journal
+- [ ] Workout: Apple Fitness + outdoor walk (1 hour)
+- [ ] Volunteer: (2 hours)
+- [ ] Visa application (5 hours)
+- [ ] [Job Application](): (45 minutes)
+  - [ ] Followup:
+- [ ] Part-time job: (5 hours)
