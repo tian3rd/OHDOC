@@ -68,9 +68,17 @@ Summarize the day:
   - [ ] Algorithm (1 hour)
   - [ ] Other:
 - [ ] Design: Draw sketch of the landing page in Figma (30 minutes)
-- [ ] Reading: (2 hour)
+- [x] Reading: (2 hour)
   - [ ] Bonus: Keep a reading journal
-- [ ] Workout: Apple Fitness + outdoor walk (1 hour)
-- [ ] Uber (2 hours)
+- [x] Workout: Apple Fitness + outdoor walk (1 hour)
 - [ ] Volunteer: (2 hours)
 - [ ] Visa application (5 hours)
+- [x] [Job Application](https://www.immutable.com/): (45 minutes)
+  - [ ] Followup:
+
+Summirize the day:
+
+1. Volunteer got cancelled because of policing evicting protestors.
+2. Attended reading via zoom.
+3. Apple fitness + random walk.
+4. Day 2 of SwiftUI, start slow, and carry on.
