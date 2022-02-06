@@ -48,3 +48,33 @@ enum Weekday {
 var day = Weekday.monday
 day = .tuesday
 print(day)
+
+// type annotation
+var score: Int = 100
+// type conversion
+var price: Double = 10
+print(price)
+// array, dict & set
+var albums: [String] = []
+albums.append("X&Y")
+albums.append("Lenka")
+
+var users: [String: Int] = ["Jack": 0, "Rose": 1]
+
+var movies: Set<String> = Set(["American History X", "Batman Begins"])
+
+// type inference
+var teams: [String] = [String]()
+var members: [String] = []
+var numbers = [Int]()
+
+// create a constant without initialization first
+let username: String
+// other stuff going on
+username = "Bill"
+
+// checkpoint 2
+// create an array with duplicates
+var players = ["Yao", "O'Neil", "Bryant", "Lin", "Yao"]
+print(players.count)
+print(Set(players).count)
