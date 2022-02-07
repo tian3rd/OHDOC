@@ -104,3 +104,27 @@ Summarize the day:
 
 1. Usually the Saturdays are spent on doing part-time jobs and relaxing.
 2. Still, can make time for an easy coding practice.
+
+##### Day 3
+
+- [ ] Coding:
+  - [ ] Full stack practice (2 hours)
+  - [x] SwiftUI (30 minutes)
+  - [ ] Python (2 hours)
+  - [ ] Algorithm (1 hour)
+  - [ ] Other:
+- [x] Design: Draw sketch of the landing page in Figma (30 minutes)
+- [ ] Reading: (2 hour)
+  - [ ] Bonus: Keep a reading journal
+- [x] Workout: Apple Fitness + outdoor walk (1 hour)
+- [ ] Visa application (5 hours)
+- [ ] [Job Application](): (45 minutes)
+  - [ ] Followup:
+- [x] Part-time job: (4 hours)
+- [x] Plan: for the following week (30 minutes)
+
+Summarize the day:
+
+1. Finished the part-time job task.
+2. Continue to work on SwiftUI, and share the progress on Twitter.
+3. [NTI] Keep it a habit to work on a regular basis.
