@@ -87,16 +87,20 @@ Summirize the day:
 
 - [ ] Coding:
   - [ ] Full stack practice (2 hours)
-  - [ ] SwiftUI (30 minutes)
+  - [x] SwiftUI (30 minutes)
   - [ ] Python (2 hours)
   - [ ] Algorithm (1 hour)
   - [ ] Other:
 - [ ] Design: Draw sketch of the landing page in Figma (30 minutes)
 - [ ] Reading: (2 hour)
   - [ ] Bonus: Keep a reading journal
-- [ ] Workout: Apple Fitness + outdoor walk (1 hour)
-- [ ] Volunteer: (2 hours)
+- [x] Workout: Apple Fitness + outdoor walk (1 hour)
 - [ ] Visa application (5 hours)
 - [ ] [Job Application](): (45 minutes)
   - [ ] Followup:
-- [ ] Part-time job: (5 hours)
+- [x] Part-time job: (5 hours)
+
+Summarize the day:
+
+1. Usually the Saturdays are spent on doing part-time jobs and relaxing.
+2. Still, can make time for an easy coding practice.
