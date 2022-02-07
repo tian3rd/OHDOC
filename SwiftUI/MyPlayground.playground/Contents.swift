@@ -78,3 +78,34 @@ username = "Bill"
 var players = ["Yao", "O'Neil", "Bryant", "Lin", "Yao"]
 print(players.count)
 print(Set(players).count)
+
+// if statement
+var mealsToday = ["milk", "bread", "barbecue"]
+if mealsToday.isEmpty {
+    print("You didn't eat anything!")
+} else {
+    print("Your first meal is \(mealsToday[0])")
+}
+
+// use && or || for a more complete example
+enum Weather {
+    case sunny, cloudy, rainy, snowy
+}
+
+// use switch and case and default and fallthrough
+let todayWeather = Weather.cloudy
+
+switch todayWeather {
+case .sunny:
+    print("It's a lovely day")
+case .rainy:
+    print("Awww...")
+case .cloudy:
+    print("Hopefully it's getting better")
+    fallthrough
+case .snowy: print("Yay!")
+}
+
+// use ternery operator: WTF what true false
+var hour = 22
+print(hour <= 12 ? "It's early" : "It's late")
