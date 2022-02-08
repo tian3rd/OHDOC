@@ -109,3 +109,51 @@ case .snowy: print("Yay!")
 // use ternery operator: WTF what true false
 var hour = 22
 print(hour <= 12 ? "It's early" : "It's late")
+
+// for loop
+let platforms = ["Linux", "Windows", "Mac OS"]
+
+for platform in platforms {
+    print("Let's take a look at \(platform)")
+}
+
+for i in 1...10 {
+    print("-------")
+    for j in 1..<11 {
+        print("\(i) * \(j) is \(i * j)")
+    }
+}
+
+// while loop
+var countdown = 10
+
+while countdown > 0 {
+    print("Counting: \(countdown)")
+    countdown -= 1
+}
+
+var roll = 0
+
+while roll != 20 {
+    roll = Int.random(in: 1...20)
+    print("Rolled a \(roll)")
+}
+print("Hit!")
+
+// break & continue inside loops
+
+// check point 3: fizzbuzz
+for i in 1...100 {
+    if i.isMultiple(of: 3) && i.isMultiple(of: 5) {
+        print("FizzBuzz")
+        continue
+    }
+    if i.isMultiple(of: 3) {
+        print("Fizz")
+    } else if i.isMultiple(of: 5) {
+        print("Buzz")
+    } else {
+        print("\(i)")
+    }
+}
+
