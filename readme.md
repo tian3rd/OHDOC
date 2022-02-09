@@ -128,3 +128,27 @@ Summarize the day:
 1. Finished the part-time job task.
 2. Continue to work on SwiftUI, and share the progress on Twitter.
 3. [NTI] Keep it a habit to work on a regular basis.
+
+##### Day 4
+
+- [ ] Coding:
+  - [ ] Full stack practice (2 hours)
+  - [x] SwiftUI (30 minutes)
+  - [ ] Python (2 hours)
+  - [ ] Algorithm (1 hour)
+  - [ ] Other:
+- [ ] Design: Draw sketch of the landing page in Figma (30 minutes)
+- [ ] Reading: (2 hour)
+  - [ ] Bonus: Keep a reading journal
+- [x] Workout: Apple Fitness + outdoor walk (30 minutes)
+- [ ] Visa application (5 hours)
+- [ ] [Job Application](): (45 minutes)
+  - [ ] Followup:
+  - [x] Quick call with one of job opportunities (30 minutes)
+- [x] ACS mentoring program (1 hour)
+  - [ ] Review (30 minutes)
+
+Summarize the day:
+
+1. Learn about FPGA and Verilog/HDL.
+2. [NTI] First things first.
