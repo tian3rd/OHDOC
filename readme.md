@@ -152,3 +152,26 @@ Summarize the day:
 
 1. Learn about FPGA and Verilog/HDL.
 2. [NTI] First things first.
+
+##### Day 5
+
+- [ ] Coding:
+  - [ ] Full stack practice (2 hours)
+  - [ ] SwiftUI (30 minutes)
+  - [ ] Python (2 hours)
+  - [ ] Algorithm (1 hour)
+  - [ ] Other:
+- [ ] Design: Draw sketch of the landing page in Figma (30 minutes)
+- [ ] Reading: (2 hour)
+  - [ ] Bonus: Keep a reading journal
+- [ ] Workout: Apple Fitness + outdoor walk (30 minutes)
+- [x] Visa application (5 hours)
+- [ ] [Job Application](): (45 minutes)
+  - [ ] Followup:
+- [ ] ACS Mentoring review (1 hour)
+- [x] Contract work sketch (1 hour)
+
+Summarize the day:
+
+1. [NTI] Get things done sooner than later.
+2. [NTI] Take a picture of what's written on paper, and organize it afterwards.
