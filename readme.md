@@ -175,3 +175,24 @@ Summarize the day:
 
 1. [NTI] Get things done sooner than later.
 2. [NTI] Take a picture of what's written on paper, and organize it afterwards.
+
+##### Day 6
+
+- [ ] Coding:
+  - [ ] Full stack practice (2 hours)
+  - [x] SwiftUI (30 minutes)
+  - [x] Python (3 hours)
+  - [ ] Algorithm (1 hour)
+  - [ ] Other:
+- [ ] Design: Draw sketch of the landing page in Figma (30 minutes)
+- [ ] Reading: (2 hour)
+  - [ ] Bonus: Keep a reading journal
+- [x] Workout: Apple Fitness + outdoor walk (30 minutes)
+  - [x] Extra: Volleyball training (2 hours))
+- [x] Visa application (5 hours)
+- [ ] [Job Application](): (45 minutes)
+  - [ ] Followup:
+  - [x] Quick phone call: 10 minutes
+- [ ] ACS Mentoring review (1 hour)
+
+Summarize the day:
