@@ -157,3 +157,58 @@ for i in 1...100 {
     }
 }
 
+// function intro
+func fizzbuzz(till: Int) {
+    for i in 1...till {
+        if i.isMultiple(of: 3) && i.isMultiple(of: 5) {
+            print("FizzBuzz")
+            continue
+        }
+        if i.isMultiple(of: 3) {
+            print("Fizz")
+        } else if i.isMultiple(of: 5) {
+            print("Buzz")
+        } else {
+            print("\(i)")
+        }
+    }
+}
+
+fizzbuzz(till: 16)
+
+// function return value
+func checkSameLetters(firstStr: String, secondStr: String) -> Bool {
+    return firstStr.sorted() == secondStr.sorted()
+}
+
+print(checkSameLetters(firstStr: "abc", secondStr: "cba"))
+
+// code example of sorted()
+let students: Set = ["Kofi", "Abena", "Peter", "Kweku", "Akosua"]
+let sortedStudents = students.sorted()
+print(sortedStudents)
+
+// use tuple as a return
+func getName() -> (firstName: String, lastName: String) {
+    ("Phillip", "W")
+}
+
+let (fName, lName) = getName()
+print("Name: \(fName) \(lName)")
+
+// ignore internal parameter name using _
+func checkEven(_ number: Int) -> Bool {
+    number.isMultiple(of: 2)
+}
+
+print(checkEven(2))
+print(checkEven(3))
+
+// use both external & internal param names
+func printLoop(till number: Int) {
+    for i in 1...number {
+        print(i)
+    }
+}
+
+printLoop(till: 10)
