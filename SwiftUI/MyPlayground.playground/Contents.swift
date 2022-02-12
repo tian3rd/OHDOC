@@ -1,4 +1,5 @@
 import Cocoa
+import Foundation
 
 var greeting = "Hello, playground"
 
@@ -272,3 +273,33 @@ do {
 } catch {
     print("ERRoR!")
 }
+
+// closure
+let basketballPlayers = ["Yao Ming", "Kobe", "Jordan", "Shaq", "Carter"]
+print(basketballPlayers.sorted())
+print(basketballPlayers.sorted(by: {(player1: String, player2: String) -> Bool in
+    if (player1 == "Kobe") {
+        return true
+    } else if (player2 == "Kobe") {
+        return false
+    } else {
+        return player1 < player2
+    }
+}))
+
+// trailing closure & shorthand syntax
+let lakers = basketballPlayers.filter {
+    $0.count == 4
+}
+print(lakers)
+
+// check point 5
+let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
+let luckierNumbers = luckyNumbers.filter {
+    !$0.isMultiple(of: 2)
+}.sorted().map { (number: Int) -> String in
+    let luckyString = "\(number) is a lucky number"
+    print(luckyString)
+    return luckyString
+}
+print(luckierNumbers)
