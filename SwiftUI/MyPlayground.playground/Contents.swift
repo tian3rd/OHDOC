@@ -212,3 +212,63 @@ func printLoop(till number: Int) {
 }
 
 printLoop(till: 10)
+
+// default parameter
+func bestBasketballPlayer(_ name: String = "Kobe") {
+    print("The best basketball player is \(name)")
+}
+
+bestBasketballPlayer()
+bestBasketballPlayer("Jordan")
+
+// try catch errors
+enum PasswordError: Error {
+    case short, obvious
+}
+
+func checkPasswordIntensity (_ password: String) throws -> String {
+    if password.count < 5 {
+        throw PasswordError.short
+    } else if password.hasPrefix("12345") {
+        throw PasswordError.obvious
+    } else {
+        return "Good!"
+    }
+}
+
+do {
+    let myPassQuality = try checkPasswordIntensity("234")
+    print("Quality: \(myPassQuality)")
+} catch PasswordError.short{
+    print("Too short!")
+} catch {
+    print("Not good!")
+}
+
+// check point 4
+enum IntSqrtError: Error {
+    case outOfBounds, noRoot
+}
+func findIntSqrt(_ number: Int) throws -> Int{
+    var sqrt: Int = 0
+    if number < 1 || number > 10_000 {
+        throw IntSqrtError.outOfBounds
+    } else {
+        for i in 1...number {
+            if i * i == number {
+                sqrt = i
+                break
+            } else if i * i > number {
+                throw IntSqrtError.noRoot
+            }
+        }
+    }
+    return sqrt
+}
+
+do {
+    let sqrt = try findIntSqrt(9)
+    print(sqrt)
+} catch {
+    print("ERRoR!")
+}
