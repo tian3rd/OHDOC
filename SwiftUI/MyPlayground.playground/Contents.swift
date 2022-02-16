@@ -364,3 +364,61 @@ print("My car is \(myCar.modelInfo) and have \(myCar.seatsInfo) seats")
 myCar.changeGear(change: 10)
 myCar.changeGear(change: 1)
 
+// class
+// check point 7
+class Animal {
+    let legs: Int
+    init(legs: Int) {
+        self.legs = legs
+    }
+}
+
+class Dog: Animal {
+    override init(legs: Int = 4) {
+        super.init(legs: legs)
+    }
+    func speak() {
+        print("Woof")
+    }
+}
+
+class Corgi: Dog {
+    override func speak() {
+        print("I'm a Corgi!")
+    }
+}
+
+class Poodle: Dog {
+    override func speak() {
+        print("I'm a Poodle")
+    }
+}
+
+class Cat: Animal {
+    let isTame: Bool
+    init(legs: Int = 4, isTame: Bool) {
+        self.isTame = isTame
+        super.init(legs: legs)
+    }
+    func speak() {
+        print("Meow")
+    }
+}
+
+class Persian: Cat {
+    override func speak() {
+        print("I'm a Persian cat")
+    }
+}
+
+class Lion: Cat {
+    override func speak() {
+        print("I'm the king!")
+    }
+}
+
+let zimba = Lion(isTame: false)
+zimba.speak()
+print(zimba.legs)
+let puppy = Poodle()
+print(puppy.speak())
