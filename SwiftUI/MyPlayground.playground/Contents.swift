@@ -422,3 +422,52 @@ zimba.speak()
 print(zimba.legs)
 let puppy = Poodle()
 print(puppy.speak())
+
+// protocols and extentions: https://www.hackingwithswift.com/100/swiftui/13
+// check point 8
+protocol Building {
+    var numRooms: Int {get set}
+    var cost: Int {get set}
+    var agent: String {get set}
+    func summary()
+}
+
+extension Building {
+    func summary() {
+        print("""
+              Number of rooms: \(numRooms)
+              Cost: \(cost)
+              Agent: \(agent)
+              """)
+    }
+}
+
+struct House: Building {
+    var numRooms: Int
+    var cost: Int
+    var agent: String
+    func summary() {
+        print("This house has \(numRooms) rooms, costing \(cost) dollars, built by \(agent)")
+    }
+}
+
+struct Office: Building {
+    var numRooms: Int
+    var cost: Int
+    var agent: String
+    func summary() {
+        print("This office has \(numRooms) rooms, costing \(cost) dollars, which is built by \(agent)")
+    }
+}
+
+struct SomeBuilding: Building {
+    var numRooms: Int
+    var cost: Int
+    var agent: String
+}
+
+let aBuilding = SomeBuilding(numRooms: 2, cost: 10000, agent: "LJ Hooker")
+aBuilding.summary()
+
+let bBuilding = House(numRooms: 5, cost: 660000, agent: "Oval")
+bBuilding.summary()
