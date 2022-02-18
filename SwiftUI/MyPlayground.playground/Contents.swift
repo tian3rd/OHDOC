@@ -471,3 +471,14 @@ aBuilding.summary()
 
 let bBuilding = House(numRooms: 5, cost: 660000, agent: "Oval")
 bBuilding.summary()
+
+// optionals
+// checkpoint 9
+func selectRandomly(from arr: [Int]?) -> Int {
+    return arr?.randomElement() ?? Array(1...100).randomElement()!
+}
+
+print(selectRandomly(from: nil))
+print(Array(1...100).randomElement())
+print(Array(1...100).randomElement()!)
+// or use Int.random(in: 1...100)
