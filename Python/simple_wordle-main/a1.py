@@ -171,7 +171,23 @@ def print_keyboard(history: tuple[tuple[str, str], ...]) -> None:
               f"{LETTERS[i * 2 + 1]}: {keyboard_info[LETTERS[i * 2 + 1]]}")
 
 
-# Add your functions here
+# 5.9
+
+
+def print_stats(stats: tuple[int, ...]) -> None:
+    """ Prints the statistics of the game.
+
+    Parameters:
+        stats (tuple[int]): The statistics of the game representing the number of rounds won in 1-6 guesses, and the number of rounds lost.
+    """
+    print()
+    print("Games won in:")
+    for i in range(MAX_GUESSES):
+        print(f"{i + 1} moves: {stats[i]}")
+    print(f"Games lost: {stats[MAX_GUESSES]}")
+
+
+# 5.10
 
 
 def main():
