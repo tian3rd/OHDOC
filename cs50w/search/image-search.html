@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="upper-right">
+      <a href="./index.html">Home</a>
+      <a href="./advanced-search.html">Advanced Search</a>
+    </div>
+    <form action="https://www.google.com/search">
+      <div class="form-group">
+        <input
+          class="input-text"
+          type="text"
+          name="q"
+          placeholder="Search an image here"
+        />
+        <div class="button-group">
+          <!-- mimic google image search without a submit button -->
+          <input type="submit" hidden />
+          <!-- add tbm=isch to jump to image search-->
+          <input type="hidden" name="tbm" value="isch" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
