@@ -166,6 +166,9 @@ def print_keyboard(history: tuple[tuple[str, str], ...]) -> None:
             keyboard_info[record[0][i]] = record[1][i]
     print("Keyboard information")
     print(DASHED_PROMPT)
+    for i in range(len(LETTERS) // 2):
+        print(f"{LETTERS[i * 2]}: {keyboard_info[LETTERS[i * 2]]}\t"
+              f"{LETTERS[i * 2 + 1]}: {keyboard_info[LETTERS[i * 2 + 1]]}")
 
 
 # Add your functions here
