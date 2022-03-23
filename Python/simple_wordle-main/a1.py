@@ -131,7 +131,9 @@ def update_history(history: tuple[tuple[str, str], ...], guess: str, answer: str
     Returns:
         tuple[tuple[str, str]]: The updated history.
     """
-    return history + ((guess, answer),)
+    return history + ((guess, process_guess(guess, answer)),)
+
+# 5.7
 
 
 def print_history(history: tuple[tuple[str, str], ...]) -> None:
