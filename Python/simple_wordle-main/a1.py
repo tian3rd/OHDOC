@@ -192,10 +192,12 @@ def print_stats(stats: tuple[int, ...]) -> None:
 
 def main():
     print("Implement your solution and run this file")
-    history = update_history((), 'python', process_guess('python', 'dances'))
-    history = update_history(
-        history, 'debunk', process_guess('debunk', 'dances'))
-    print(history)
+
+    vocab = load_words("vocab.txt")
+    history = update_history((), 'python', 'crayon')
+    print_history(history)
+
+    history = update_history(history, guess_next(vocab, history), 'crayon')
     print_history(history)
 
 
