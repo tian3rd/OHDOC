@@ -200,6 +200,73 @@ def main():
     history = update_history(history, guess_next(vocab, history), 'crayon')
     print_history(history)
 
+    history = update_history(history, guess_next(vocab, history), 'crayon')
+    print_history(history)
+
+    print(guess_next(vocab, history))
+
+
+# 6.1
+
+
+def guess_next(vocab: tuple[str, ...], history: tuple[tuple[str, str], ...]) -> Optional[str]:
+    """ Returns a valid next guess that doesn't violate known info from previous guesses.
+
+    Parameters:
+        vocab (tuple[str]): The possible words in file 'vocab.txt'.
+        history (tuple[tuple[str, str]]): The history of guesses and answers.
+
+    Returns:
+        Optional[str]: The next guess to make, or None if no such guess exists.
+    """
+    correct_cond, misplaced_cond, incorrect_cond = get_conditions(history)
+    print("conditions: ", get_conditions(history))
+
+    for word in vocab:
+        if correct_check(word, correct_cond) and misplaced_check(word, misplaced_cond) and incorrect_check(word, incorrect_cond):
+            return word
+
+
+def get_conditions(history: tuple[tuple[str, str], ...]) -> tuple[str, str, str]:
+    correct, misplaced, incorrect = "", "", ""
+    for record in history:
+        guessed_word = record[0]
+        guessed_result = record[1]
+        for i in range(WORD_SIZE):
+            if guessed_result[i] == CORRECT:
+                if guessed_word[i] not in correct:
+                    correct += f"{i}{guessed_word[i]}"
+            elif guessed_result[i] == MISPLACED:
+                misplaced += f"{i}{guessed_word[i]}"
+            else:
+                incorrect += guessed_word[i]
+    return correct, misplaced, incorrect
+
+
+def correct_check(word: str, cond: str) -> bool:
+    for i in range(len(cond) // 2):
+        pos = int(cond[i * 2])
+        if word[pos] != cond[i * 2 + 1]:
+            return False
+    return True
+
+
+def misplaced_check(word: str, cond: str) -> bool:
+    for i in range(len(cond) // 2):
+        pos = int(cond[i * 2])
+        if word[pos] == cond[i * 2 + 1]:
+            return False
+        if cond[i * 2 + 1] not in word:
+            return False
+    return True
+
+
+def incorrect_check(word: str, cond: str) -> bool:
+    for letter in cond:
+        if letter in word:
+            return False
+    return True
+
 
 if __name__ == "__main__":
     main()
