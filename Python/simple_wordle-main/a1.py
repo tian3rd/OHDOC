@@ -29,6 +29,8 @@ LETTERS = "abcdefghijklmnopqrstuvwxyz"
 __author__ = "<Your Name>, <Your Student Number>"
 __email__ = "<Your Student Email>"
 
+# 5.1
+
 
 def has_won(guess: str, answer: str) -> bool:
     """ Returns True if the guess is correct, False otherwise.
@@ -43,6 +45,8 @@ def has_won(guess: str, answer: str) -> bool:
     assert len(guess) == 6 and len(answer) == 6
     return guess == answer
 
+# 5.2
+
 
 def has_lost(guess_number: int) -> bool:
     """ Returns True if the number of guesses that have occurred is equal to or greater than the maximum number of guesses, False otherwise.
@@ -55,6 +59,8 @@ def has_lost(guess_number: int) -> bool:
     """
     return guess_number >= MAX_GUESSES
 
+# 5.3
+
 
 def remove_word(words: tuple[str, ...], word: str) -> tuple[str, ...]:
     """ Removes the given word from the given words.
@@ -64,6 +70,8 @@ def remove_word(words: tuple[str, ...], word: str) -> tuple[str, ...]:
         word (str): The word to remove from the given words.
     """
     return tuple(w for w in words if w != word)
+
+# 5.4
 
 
 def prompt_user(guess_number: int, words: tuple[str, ...]) -> str:
@@ -84,6 +92,8 @@ def prompt_user(guess_number: int, words: tuple[str, ...]) -> str:
             print(f"Invalid! Unknown word")
         else:
             return user_input
+
+# 5.5
 
 
 def process_guess(guess: str, answer: str) -> str:
@@ -106,6 +116,8 @@ def process_guess(guess: str, answer: str) -> str:
         else:
             blocks += INCORRECT
     return blocks
+
+# 5.6
 
 
 def update_history(history: tuple[tuple[str, str], ...], guess: str, answer: str) -> tuple[tuple[str, str], ...]:
@@ -135,6 +147,8 @@ def print_history(history: tuple[tuple[str, str], ...]) -> None:
         print(f"Guess {i + 1}:{guessed_word}")
         print(f"         {history[i][1]}")
     print(DASHED_PROMPT)
+
+# 5.8
 
 
 def print_keyboard(history: tuple[tuple[str, str], ...]) -> None:
