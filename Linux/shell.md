@@ -40,3 +40,19 @@ sudo apt-get autoremove
 
 Q: _What's the difference between adding `#!/usr/bin/env python` and `#!/usr/bin/python3`_
 A: `#!/usr/bin/env python` uses the python environment variables of the current shell in the PATH environment, while `#!/usr/bin/python3` is a hard-coded python3 interpreter. The difference occurs when there're multiple python interpreters, or when the python interpreter is not in `/usr/bin/` in a virtual environment. Refer to https://stackoverflow.com/questions/5709616/whats-the-difference-between-python-shebangs-with-usr-bin-env-rather-than-hard for more details.
+
+Q: How to install `tldr` for Linux?
+A: To install [`tldr`](https://tldr.sh/), it's better to use `npm`, and to manage `npm`, it's better to use [`nvm`](https://www.freecodecamp.org/news/how-to-install-node-js-on-ubuntu-and-update-npm-to-the-latest-version/).
+
+### Use Tmux
+
+#### Get started with Tmux
+
+https://linuxize.com/post/getting-started-with-tmux/
+
+### Use Fish
+
+https://fishshell.com/docs/current/index.html
+
+Q: `fish` doesn't find `nvm`, `npm` while they are installed in `bash`.
+A: First, install `fisher` plugin manager for `fish`. Then `fisher install FabioAntunes/fish-nvm edc/bass`.
