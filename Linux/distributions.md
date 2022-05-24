@@ -19,3 +19,34 @@ sudo su
 root     ALL=(ALL:ALL) ALL
 yourusername    ALL=(ALL:ALL) ALL
 ```
+
+Q: How to customize the service?
+A: https://wiki.debian.org/systemd/Services
+More: https://www.digitalocean.com/community/tutorials/how-to-configure-a-linux-service-to-start-automatically-after-a-crash-or-reboot-part-1-practical-examples
+
+### Raspberry Pi OS
+
+Q: How to list Raspberry Pi Hardware Information?
+A: Refer to https://linuxhint.com/commands-for-hardware-information-raspberry-pi/ and https://opensource.com/article/19/9/linux-commands-hardware-information
+
+```bash
+cat /proc/cpuinfo
+cat /proc/meminfo
+inxi -Fxz
+hwinfo --short
+lshw -short
+```
+
+Q: How to install `fish` shell in Raspberry Pi?
+A: https://software.opensuse.org/download.html?project=shells%3Afish%3Arelease%3A3&package=fish
+
+Q: How to remap the `capslock` key to `escape` key?
+A: Refer to [https://raspberrypi.stackexchange.com/questions/5333/how-to-map-caps-lock-key-to-something-useful]
+
+```bash
+$ cat /etc/os-release
+# Raspbian GNU/Linux 10 (buster)
+sudo vim ~/.config/lxkeymap.cfg
+# add "option caps:escape"
+sudo reboot
+```

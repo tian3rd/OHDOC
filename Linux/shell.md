@@ -44,6 +44,12 @@ A: `#!/usr/bin/env python` uses the python environment variables of the current 
 Q: How to install `tldr` for Linux?
 A: To install [`tldr`](https://tldr.sh/), it's better to use `npm`, and to manage `npm`, it's better to use [`nvm`](https://www.freecodecamp.org/news/how-to-install-node-js-on-ubuntu-and-update-npm-to-the-latest-version/).
 
+Q: How can I check if a directory exists in a Bash shell script?
+A: `[ -d "${dir}" ]` [ref1](https://www.cyberciti.biz/faq/howto-check-if-a-directory-exists-in-a-bash-shellscript/) [ref2](https://stackoverflow.com/questions/59838/how-can-i-check-if-a-directory-exists-in-a-bash-shell-script)
+
+Q: How to bind USB device under a static name?
+A: [ref](https://unix.stackexchange.com/questions/66901/how-to-bind-usb-device-under-a-static-name)
+
 ### Use Tmux
 
 #### Get started with Tmux
