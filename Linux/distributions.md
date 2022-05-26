@@ -50,3 +50,7 @@ sudo vim ~/.config/lxkeymap.cfg
 # add "option caps:escape"
 sudo reboot
 ```
+
+Q: How to show the startup logs?
+A: `sudo journalctl -k` or `sudo journalctl --boot` or `dmesg`
+[ref1](https://forums.raspberrypi.com/viewtopic.php?t=124235) [ref2](https://raspberrypi.stackexchange.com/questions/949/running-headless-checking-boot-screen-messages)
