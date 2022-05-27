@@ -38,3 +38,6 @@ cw: change the word manually after checking
 n.: repeat for next word
 
 ## Other commands
+
+Q: How to set numbers in `vim` command line?
+A: `:set number` [ref](https://linuxize.com/post/how-to-show-line-numbers-in-vim/)

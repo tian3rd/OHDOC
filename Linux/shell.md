@@ -50,6 +50,9 @@ A: `[ -d "${dir}" ]` [ref1](https://www.cyberciti.biz/faq/howto-check-if-a-direc
 Q: How to bind USB device under a static name?
 A: [ref](https://unix.stackexchange.com/questions/66901/how-to-bind-usb-device-under-a-static-name)
 
+Q: How to open multiple terminals without GUI?
+A: Use `ctrl + F1-F12` [ref](https://raspberrypi.stackexchange.com/questions/7023/open-multiple-terminals-without-gui-startx)
+
 ### Use Tmux
 
 #### Get started with Tmux

@@ -60,3 +60,7 @@ _Extra_: use `sudo systemctl restart <service_name>` to restart a service, and `
 Refer to the wikipedia page [here](https://en.wikipedia.org/wiki/INI_file)
 
 _Related_: add the corresponding key and value in the form of `key=value` under the `[section]`.
+
+9. What is `wpa_supplicant` service in Linux?
+
+`wpa_supplicant` is a cross-platform supplicant with support for WPA, WPA2 and WPA3 (IEEE 802.11i) [ref](https://wiki.archlinux.org/title/wpa_supplicant)
