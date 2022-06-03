@@ -53,6 +53,16 @@ A: [ref](https://unix.stackexchange.com/questions/66901/how-to-bind-usb-device-u
 Q: How to open multiple terminals without GUI?
 A: Use `ctrl + F1-F12` [ref](https://raspberrypi.stackexchange.com/questions/7023/open-multiple-terminals-without-gui-startx)
 
+Q: Add timestamps in `bash`.
+A:
+
+```bash
+sudo vim ~/.bashrc
+# in ~.bashrc file, add the following below HISTCONTROL=ignoreboth
+HISTTIMEFORMAT="%Y-%m-%d %T "
+# restart bash
+```
+
 ### Use Tmux
 
 #### Get started with Tmux
