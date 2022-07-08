@@ -1,6 +1,6 @@
-## Micro-controllers
+# Micro-controllers
 
-### Arduino
+## Arduino
 
 Use https://www.tinkercad.com/ for designing and prototyping.
 
@@ -20,6 +20,9 @@ A: Yes. Refer to https://forum.arduino.cc/t/vin-power-usb-power/397029
 Q: Arduino UNO pinout.
 A: Refer to https://www.circuito.io/blog/arduino-uno-pinout/.
 ![Pinout](../assets/img/ArduinoPinout.jpg)
+
+Q: How do you power up Arduino?
+A: Refer to this [link](https://thepihut.com/blogs/raspberry-pi-tutorials/how-do-i-power-my-arduino)
 
 Q: How to control Arduino pins?
 A: One possible and easy way is to use Firmata protocol.
@@ -46,4 +49,30 @@ References:
 1. Using Firmata On Arduino Compatible Boards
 2. Firmata: Towards making microcontrollers act like extensions of the computer
 
-### Raspberry Pi
+## Raspberry Pi
+
+### Raspberry Pi pinout
+
+![pinout](https://roboticsbackend.com/wp-content/uploads/2019/05/raspberry-pi-3-pinout.jpg)
+
+Note: All GPIOs work at 3.3V. If you need to make your Raspberry Pi 4 GPIOs communicate with 5V pins directly (ex: Arduino Uno or Mega), you’ll need to use a 3.3V to 5V level shifter.
+
+Q: How do you power up Raspberry Pi?
+A: [link](https://thepihut.com/blogs/raspberry-pi-tutorials/how-do-i-power-my-raspberry-pi)
+
+### Raspberry Pi accessories
+
+1. [USB to TTL Serial Cable - Debug / Console Cable for Raspberry Pi](https://thepihut.com/products/usb-to-ttl-serial-cable-debug-console-cable-for-raspberry-pi)
+   1. Inside the big USB plug is a USBSerial conversion chip and at the end of the 36" cable are four wire - red power, black ground, white RX into USB port, and green TX out of the USB port. The power pin provides the 5V @ 500mA direct from the USB port and the RX/TX pins are 3.3V level for interfacing with the most common 3.3V logic level chipsets.
+2.
+
+### Raspberry Pi connection
+
+#### RPI with Arduino
+
+Raspberry Pi Arduino Serial Communication:
+
+## Reference
+
+1. [RPI pinout](https://roboticsbackend.com/raspberry-pi-3-pins/)
+2. [Raspberry Pi Arduino Serial Communication](https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/)
