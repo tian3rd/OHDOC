@@ -30,3 +30,8 @@ Reference:
 2. Oscilloscope
    - Different products
      - Hantek 6022BE: https://www.youtube.com/watch?v=8ts5J09Y7Gc&t=165s
+
+## Miscellaneous
+
+1. Rack
+   1. [Rack unit](https://www.pennelcomonline.com/au/au/Rack-Unit-Calculator/cc-118.aspx)
