@@ -1,0 +1,9 @@
+name: simple_maze
+
+description: A simple maze puzzle to find out the shortest path.
+
+environment:
+  sdk: ">=2.12.2 <3.0.0"
+
+dev_dependencies:
+  test: ^1.21.4
